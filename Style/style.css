@@ -1,0 +1,42 @@
+/* Configurações GERAIS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  width: 100%;
+  height: 50%;
+}
+
+input {
+  border: 1px solid orange;
+  width: 18.6em;
+  height: 2.8em;
+  margin-left: 1em;
+  border-radius: 8px;
+  font-size: 0.7em;
+}
+
+/* Inicio Header CONFIG */
+.cont-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  height: 5.6em;
+  width: 20em;
+  margin-right: 37%;
+}
+
+.cont-search {
+  display: flex;
+  align-items: center;
+  border: 1px solid green;
+  width: 16em;
+  height: 5.6em;
+}
